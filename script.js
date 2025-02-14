@@ -1,5 +1,6 @@
 // Function to format time using locale-specific options
-const options = {
+const options =
+    {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
@@ -7,7 +8,7 @@ const options = {
     minute: '2-digit',
     second: '2-digit',
     timeZoneName: 'short'
-};
+    };
 
 function formatTime(date) {
     return date.toLocaleDateString('en-US', options);
@@ -50,5 +51,6 @@ function renderProjects() {
         projectsContainer.appendChild(listItem);
     });
 }
+
 
 renderProjects();
