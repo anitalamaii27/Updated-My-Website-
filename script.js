@@ -30,8 +30,8 @@ setInterval(showTime, 1000);
 // Update Projects Dynamically
 const projects = [
     "This Website",
-    "A basic calculator app",
-    "To-do List app",
+    "A basic calculator Website/app",
+    "To-do List Website/app",
     "Personal Blog",
     "Weather app",
     "Chat Application",
@@ -39,6 +39,7 @@ const projects = [
     "Basic Firewall",
     "Vulnerability Assessment Tool"
 ];
+
 
 function renderProjects() {
     const projectsContainer = document.querySelector('.projects-list');
